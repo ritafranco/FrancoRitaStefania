@@ -23,7 +23,7 @@ public class Math {
     {
         if (j<=2)
             return false;
-        // ciao
+
         for(int i=2; i< j/2; i++)
         {
             if (j%i==0)

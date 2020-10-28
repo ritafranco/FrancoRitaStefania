@@ -4,7 +4,7 @@ public class App
 {
     public static void main( String[] args ) {
         Integer number = 20;
-        Math m = new Math();
+        MyMath m = new MyMath();
 
         m.generatoreNumeriPrimi(number);
     }

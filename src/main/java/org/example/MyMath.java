@@ -3,7 +3,7 @@ package org.example;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Math {
+public class MyMath {
     public List<Integer> generatoreNumeriPrimi(int n){
         List<Integer> numeriPrimi = new LinkedList<>();
 
@@ -21,7 +21,7 @@ public class Math {
 
     boolean isPrime(int j)
     {
-        if (j<=2)
+        if (j<2)
             return false;
 
         for(int i=2; i< j/2; i++)
